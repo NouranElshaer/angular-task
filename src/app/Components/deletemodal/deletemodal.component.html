@@ -1,0 +1,15 @@
+<div mat-dialog-content class="container">
+  <div [align]="'center'">
+    <h1>Confirm Action</h1>
+  </div>
+  <div [align]="'center'">
+    <mat-icon color="warn" class="icon-display">not_interested</mat-icon>
+  </div>
+  <div [align]="'center'">
+    <p>Are You Sure You Want to Delete This Recoard?</p>
+  </div>
+  <div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+    <button mat-raised-button color="primary" (click)="DeleteTask()">Yes</button>
+  </div>
+</div>

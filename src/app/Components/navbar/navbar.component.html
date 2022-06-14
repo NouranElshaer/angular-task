@@ -1,0 +1,14 @@
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon color="primary" class="icon-display">label</mat-icon>
+  </button>
+  <span>Task List</span>
+  <span class="example-spacer"></span>
+  <div class="example-spacer">
+    <button mat-raised-button color="primary" (click)="Add()">Add</button>
+
+  </div>
+  <mat-slide-toggle color="primary" (change)="DarkModeToggle($event)">
+    <mat-icon class="icon-display">wb_sunny</mat-icon>
+  </mat-slide-toggle>
+</mat-toolbar>

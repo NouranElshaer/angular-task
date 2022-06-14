@@ -1,0 +1,3 @@
+<app-navbar [taskList]="taskList" (saved)="TriggerTableDate($event)" (DarkModeSwitched)="SwitchMode($event)">
+</app-navbar>
+<app-table [taskList]="taskList" [isadded]="isadded"></app-table>
